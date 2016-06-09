@@ -24,7 +24,8 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading"> @UserName </div>
                     <div class="panel-body">
-                        Panel content
+                        <p>Repos count: @count</p>
+                        <p>Followers: @count</p>
                     </div>
                 </div>
             </div>
@@ -33,14 +34,18 @@
                     <div class="col-lg-5">
                         <div class="panel panel-primary">
                             <div class="panel-body">
-                                Panel content
+                                <p>Name: @reponame</p>
+                                <p>Stargazers: @stargazerscount</p>
+                                <button type="button" class="btn btn-info">Show stargazers</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="panel panel-primary">
-                            <div class="panel-body">
-                                Panel content
+                        <div class="row panel panel-primary">
+                            <div class="col-lg-4">
+                                <a href="#" class="thumbnail">
+                                    <img data-src="holder.js/100%x180" alt="...">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -49,12 +54,12 @@
         </div>
     </div>
     <!-- JS LIBS -->
-    <script type="text/javascript" src="js/knockout-3.4.0.debug.js"></script>
+    <script type="text/javascript" src="js/libs/knockout-3.4.0.debug.js"></script>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
     <!-- JS SRC -->
-    <script type="text/javascript" src="js/application.js"></script>
+    <script type="text/javascript" src="js/app/application.js"></script>
 </body>
 </html>
