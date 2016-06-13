@@ -1,7 +1,7 @@
- <div class="row" style="padding: 25px" id="userContent">
+ <div class="row" id="userContent">
         <div class="col-lg-4">
             <div class="panel panel-primary">
-                <div class="panel-heading" data-bind="text: login"></div>
+                <div class="panel-heading"><b>Login: <label data-bind="text: login"/></b></div>
                 <div class="panel-body">
                     <p>Repos count: <label data-bind="text: public_repos"/></p>
                     <p>Followers: <label data-bind="text: followers"/></p>
@@ -11,5 +11,4 @@
         <div class="col-lg-8" data-bind="template: { name: 'ContainerTemplate', foreach: data}" id="userRepos">
 
         </div>
-
 </div>

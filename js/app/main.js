@@ -1,16 +1,12 @@
 /**
  * Created by ilshatmanakhov on 12.06.16.
  */
-define(['app/main', 'app/userwidget'],function(main, userwidget) {
+define(['app/main', 'app/userwidget', 'libs/tamplateUtil','text!../templates/container.html'],function(main, userwidget,tamplateUtil,containerTmpl) {
     var ViewModel = function () {
         var self = this;
         this.userName = ko.observable('');
 
-        //this.userModel = ko.observable({});
-        //this.userReposModel = ko.observableArray([]);
-        //this.userReposStargazersModel = ko.observable({});
-
-        this.myContents =  ko.observableArray([]);
+        this.userSearchContent =  ko.observableArray([]);
 
         this.githubUser = ko.pureComputed({
             read: function () {
@@ -31,12 +27,13 @@ define(['app/main', 'app/userwidget'],function(main, userwidget) {
                     userwidget.init(self, msg);
                 },
                 error: function (XMLHttpRequest, textStatus, errorThrown) {
-                    self.myContents([]);
+                    self.userSearchContent([]);
                     alert("Error: " + errorThrown);
                 }
             });
         };
 
+        tamplateUtil.init('ContainerTemplate',containerTmpl);
     };
 
     ko.applyBindings(new ViewModel());

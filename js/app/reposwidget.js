@@ -4,13 +4,13 @@ define(['libs/tamplateUtil','text!../templates/reposwidget.html','app/startgazer
 
         this.init = function(userInfo){
             if(userInfo) {
+                tamplateUtil.init("reposwidget", widgetTmpl);
                 $.ajax({
                     crossDomain: true,
                     dataType: 'json',
                     url: userInfo.repos_url,
                     success: function (msg) {
                         if (msg) {
-                            tamplateUtil.init("reposwidget", widgetTmpl);
                             for (var i = 0; i < msg.length; i++) {
                                 msg[i].startGazers = ko.observableArray([]);
                                 var stargazersCount = msg[i].stargazers_count;
