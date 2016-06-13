@@ -13,6 +13,8 @@ define(['libs/tamplateUtil','text!../templates/reposwidget.html','app/startgazer
                             tamplateUtil.init("reposwidget", widgetTmpl);
                             for (var i = 0; i < msg.length; i++) {
                                 msg[i].startGazers = ko.observableArray([]);
+                                var stargazersCount = msg[i].stargazers_count;
+                                msg[i].stargazers_color = stargazersCount <= 5 ? 'small' : (stargazersCount > 5 && stargazersCount < 11 ? 'medium' : 'large');
                                 userInfo.data.push({
                                     contentTemplate: 'reposwidget',
                                     contentData: msg[i]

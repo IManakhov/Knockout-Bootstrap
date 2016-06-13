@@ -3,8 +3,10 @@
         <div class="panel panel-primary">
             <div class="panel-body">
                 <p>Name: <label data-bind="text: name"/></p>
-                <p>Stargazers: <label data-bind="text: stargazers_count"/> </p>
-                <button data-bind="attr: { id: 'stargazersbtn_' + $index() }"
+                <p>Stargazers: <label data-bind="text: stargazers_count"/>
+                    <span class="glyphicon glyphicon-star" style="color: #E3E33B;" data-bind="style: { 'font-size': stargazers_color }"></span>
+                </p>
+                <button data-bind="attr: { 'isStargazersButton': true, id: 'stargazersbtn_' + $index() }"
                         type="button" class="btn btn-info">Show stargazers</button>
             </div>
         </div>
