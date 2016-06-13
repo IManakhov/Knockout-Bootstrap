@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-lg-6">
+        <div class="panel panel-primary">
+            <div class="panel-body">
+                <p>Name: <label data-bind="text: name"/></p>
+                <p>Stargazers: <label data-bind="text: stargazers_count"/> </p>
+                <button data-bind="attr: { id: 'stargazersbtn_' + $index() }"
+                        type="button" class="btn btn-info">Show stargazers</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6" data-bind="template: { name: 'ContainerTemplate', foreach: startGazers}">
+
+    </div>
+</div>
