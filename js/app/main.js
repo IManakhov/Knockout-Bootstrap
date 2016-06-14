@@ -19,6 +19,7 @@ define(['app/main', 'app/userwidget', 'libs/tamplateUtil','text!../templates/con
         });
 
         this.searchUser = function () {
+            self.userSearchContent([]);
             $.ajax({
                 crossDomain: true,
                 dataType: 'json',
@@ -27,7 +28,6 @@ define(['app/main', 'app/userwidget', 'libs/tamplateUtil','text!../templates/con
                     userwidget.init(self, msg);
                 },
                 error: function (XMLHttpRequest, textStatus, errorThrown) {
-                    self.userSearchContent([]);
                     alert("Error: " + errorThrown);
                 }
             });
