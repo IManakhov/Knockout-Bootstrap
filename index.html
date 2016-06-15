@@ -8,17 +8,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="row" style="padding: 25px">
-        <div class="col-lg-4">
-            <div class="input-group">
-                <input type="text" class="form-control" data-bind="textInput: githubUser" placeholder="Enter github username here">
-                  <span class="input-group-btn">
-                    <button class="btn btn-default" data-bind="click: searchUser" type="button">Search</button>
-                  </span>
-            </div>
-        </div>
-    </div>
-    <div class="row" style="padding: 40px" data-bind="template: { name: 'ContainerTemplate', foreach: userSearchContent }" />
+    <div data-bind='component: { name: "mainview" }'></div>
     <!-- JS LIBS -->
     <script type="text/javascript" src="js/libs/knockout-3.4.0.debug.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

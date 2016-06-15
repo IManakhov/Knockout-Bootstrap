@@ -1,4 +1,4 @@
- <div class="row" id="userContent">
+ <div class="row" data-bind="with: userData">
         <div class="col-lg-4">
             <div class="panel panel-primary">
                 <div class="panel-heading"><b>Login: <label data-bind="text: login"/></b></div>
@@ -8,7 +8,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-8" data-bind="template: { name: 'ContainerTemplate', foreach: data}" id="userRepos">
+        <div class="col-lg-8" data-bind='component: { name: "repos-widget", params: repos_url }'>
 
         </div>
 </div>
