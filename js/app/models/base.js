@@ -1,12 +1,10 @@
 define([],function() {
-    var User = function () {
-        var self = this;
-
-        this.load = function(userName, callbackFn){
+    var BaseModel = function () {
+        this.load = function (url,callbackFn) {
             $.ajax({
                 crossDomain: true,
                 dataType: 'json',
-                url: "https://api.github.com/users/" + userName,
+                url: url,
                 success: function (msg) {
                     callbackFn(msg);
                 },
@@ -15,8 +13,9 @@ define([],function() {
                     callbackFn(null);
                 }
             });
+
         };
     };
 
-    return new User();
+    return new BaseModel();
 });
