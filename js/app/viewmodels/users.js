@@ -1,6 +1,6 @@
 define(['app/models/users'],function (usermodel) {
-    function viewModel() {
+    function UsersViewModel() {
         this.userData = usermodel.getFindedUser();
     };
-    return viewModel;
+    return UsersViewModel;
 });

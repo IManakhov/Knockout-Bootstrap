@@ -1,5 +1,5 @@
 define(['app/models/repos'],function (repomodel) {
-    function viewModel(reposUrl) {
+    function ReposViewModel(reposUrl) {
         var self = this;
         this.repos = ko.observableArray([]);
         repomodel.load(reposUrl, function (repos) {
@@ -20,5 +20,5 @@ define(['app/models/repos'],function (repomodel) {
             }
         };
     };
-    return viewModel;
+    return ReposViewModel;
 });

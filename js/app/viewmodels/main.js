@@ -2,7 +2,7 @@
  * Created by manahov on 15.06.2016.
  */
 define(['app/models/users'],function (usermodel) {
-    function viewModel() {
+    function MainViewModel() {
         var self = this;
         this.userName = ko.observable('');
         this.userFinded = ko.observable(false);
@@ -25,5 +25,5 @@ define(['app/models/users'],function (usermodel) {
         };
     };
 
-    return viewModel;
+    return MainViewModel;
 });

@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69daf72a-6f56-48bd-9e7c-ebb05db2c264" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app/models/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app/viewmodels/users.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app/viewmodels/user.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/app/models/repo.js" afterPath="$PROJECT_DIR$/js/app/models/repos.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/app/models/user.js" afterPath="$PROJECT_DIR$/js/app/models/users.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/app/viewmodels/repo.js" afterPath="$PROJECT_DIR$/js/app/viewmodels/repos.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/startgazerswidget.html" afterPath="$PROJECT_DIR$/templates/stargazerswidget.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/models/stargazers.js" afterPath="$PROJECT_DIR$/js/app/models/stargazers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/viewmodels/main.js" afterPath="$PROJECT_DIR$/js/app/viewmodels/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/viewmodels/repos.js" afterPath="$PROJECT_DIR$/js/app/viewmodels/repos.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/viewmodels/stargazers.js" afterPath="$PROJECT_DIR$/js/app/viewmodels/stargazers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/views/reposwidget.js" afterPath="$PROJECT_DIR$/js/app/views/reposwidget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/views/stargazerswidget.js" afterPath="$PROJECT_DIR$/js/app/views/stargazerswidget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/views/userinfowidget.js" afterPath="$PROJECT_DIR$/js/app/views/userinfowidget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main.html" afterPath="$PROJECT_DIR$/templates/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/reposwidget.html" afterPath="$PROJECT_DIR$/templates/reposwidget.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/viewmodels/users.js" afterPath="$PROJECT_DIR$/js/app/viewmodels/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/stargazerswidget.html" afterPath="$PROJECT_DIR$/templates/stargazerswidget.html" />
     </list>
     <ignored path="khockout_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/models/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/models/base.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,11 +37,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="userinfowidget.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/userinfowidget.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="repos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/models/repos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/viewmodels/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -71,30 +70,10 @@
         </entry>
       </file>
       <file leaf-file-name="stargazers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/models/stargazers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userinfowidget.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/views/userinfowidget.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stargazers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/viewmodels/stargazers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -104,7 +83,17 @@
         <entry file="file://$PROJECT_DIR$/js/app/viewmodels/users.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/views/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -125,8 +114,8 @@
       <file leaf-file-name="stargazerswidget.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/stargazerswidget.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -135,8 +124,8 @@
       <file leaf-file-name="repos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app/viewmodels/repos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.021276595">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.4680851">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -186,21 +175,21 @@
         <option value="$PROJECT_DIR$/js/app/viewmodels/repo.js" />
         <option value="$PROJECT_DIR$/js/app/models/user.js" />
         <option value="$PROJECT_DIR$/js/app/views/stargazerswidget.js" />
-        <option value="$PROJECT_DIR$/templates/stargazerswidget.html" />
         <option value="$PROJECT_DIR$/js/app/views/reposwidget.js" />
         <option value="$PROJECT_DIR$/js/app/viewmodels/user.js" />
         <option value="$PROJECT_DIR$/js/app/views/userinfowidget.js" />
-        <option value="$PROJECT_DIR$/js/app/viewmodels/repos.js" />
-        <option value="$PROJECT_DIR$/js/app/viewmodels/stargazers.js" />
         <option value="$PROJECT_DIR$/js/app/models/base.js" />
         <option value="$PROJECT_DIR$/js/app/models/repos.js" />
         <option value="$PROJECT_DIR$/js/app/models/stargazers.js" />
         <option value="$PROJECT_DIR$/templates/userinfowidget.html" />
         <option value="$PROJECT_DIR$/templates/main.html" />
-        <option value="$PROJECT_DIR$/js/app/viewmodels/main.js" />
         <option value="$PROJECT_DIR$/templates/reposwidget.html" />
         <option value="$PROJECT_DIR$/js/app/models/users.js" />
+        <option value="$PROJECT_DIR$/js/app/viewmodels/main.js" />
+        <option value="$PROJECT_DIR$/js/app/viewmodels/repos.js" />
+        <option value="$PROJECT_DIR$/js/app/viewmodels/stargazers.js" />
         <option value="$PROJECT_DIR$/js/app/viewmodels/users.js" />
+        <option value="$PROJECT_DIR$/templates/stargazerswidget.html" />
       </list>
     </option>
   </component>
@@ -805,14 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/userinfowidget.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875">
@@ -821,22 +802,6 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/models/repos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/views/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,14 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/models/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/models/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -888,28 +845,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/models/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/models/repos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/viewmodels/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/viewmodels/stargazers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/viewmodels/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/views/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userinfowidget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/stargazerswidget.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -924,18 +921,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/viewmodels/stargazers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/viewmodels/repos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.021276595">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.4680851">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding />
         </state>
       </provider>
