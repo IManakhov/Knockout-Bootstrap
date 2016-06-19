@@ -6,11 +6,11 @@ define([],function() {
                 dataType: 'json',
                 url: url,
                 success: function (msg) {
-                    callbackFn(msg);
+                    callbackFn(true,msg);
                 },
                 error: function (XMLHttpRequest, textStatus, errorThrown) {
                     alert("Error: " + errorThrown);
-                    callbackFn(null);
+                    callbackFn(false, errorThrown);
                 }
             });
 

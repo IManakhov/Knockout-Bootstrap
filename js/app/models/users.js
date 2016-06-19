@@ -5,9 +5,9 @@ define(['app/models/base'],function(basemodel) {
         this.findedUser = {};
 
         this.find = function(userName, callbackFn){
-            this.prototype.load("https://api.github.com/users/" + userName, function(result){
+            this.prototype.load("https://api.github.com/users/" + userName, function(success, result){
                 self.findedUser = result;
-                callbackFn(!!result);
+                callbackFn(success, result);
             });
         };
 

@@ -19,8 +19,9 @@ define(['app/models/users'],function (usermodel) {
 
         this.searchUser = function () {
             self.userFinded(false);
-            usermodel.find(this.userName(), function (userFinded) {
-                self.userFinded(userFinded);
+            usermodel.find(this.userName(), function (success, userFinded) {
+                if(success)
+                    self.userFinded(userFinded);
             });
         };
     };
